@@ -11,13 +11,13 @@ public class HelloController {
     // Public endpoint
     @GetMapping("/public")
     public String publicEndpoint() {
-        return "This endpoint is public and accessible by anyone!";
+        return "This endpoint is public and accessible by anyoneeeee!";
     }
 
     // Private endpoint (requires authentication)
     @GetMapping("/hello")
     public String privateEndpoint() {
-        return "Hello secure World!";
+        return "Hello secure Worlddddddddd!";
     }
 
 }
