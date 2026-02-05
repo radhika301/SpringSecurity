@@ -19,5 +19,11 @@ public class HelloController {
     public String privateEndpoint() {
         return "Hello secure Worlddddddddd!";
     }
+    
+    // Private endpoint (requires authentication)
+    @GetMapping("/hi")
+    public String privateEndpoint1() {
+        return "Hello secure Worlddddddddd!";
+    }
 
 }
