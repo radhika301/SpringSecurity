@@ -17,15 +17,13 @@ public class HelloController {
     // Private endpoint (requires authentication)
     @GetMapping("/hello")
     public String privateEndpoint() {
-
-        return "Hello secure Worlddddddddd from MAIN LOCAL! check merge conflict";
-
+        return "Hello secure Worlddddddddd! checking merge conflict";
     }
     
     // Private endpoint (requires authentication)
     @GetMapping("/hi11")
     public String privateEndpoint1() {
-        return "Hello secure Worlddddddddd! FROM MAIN LOCAL staging";
+        return "Hello secure Worlddddddddd! FROM MAIN checking merge conflict";
     }
 
 }
