@@ -20,7 +20,7 @@ public class SimpleSecurityFlow {
 
             } else {
                 // protected URL → requires login
-                System.out.println("URL is protected → check authentication");
+                System.out.println("URL is protected → check authenticationNNNN");
 
                 // 2️⃣ Check authentication
                 if (userLoggedIn) {
