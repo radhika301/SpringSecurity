@@ -23,7 +23,7 @@ public class HelloController {
     // Private endpoint (requires authentication)
     @GetMapping("/hi11")
     public String privateEndpoint1() {
-        return "Hello secure Worlddddddddd!";
+        return "Hello secure Worlddddddddd! FROM MAIN";
     }
 
 }
