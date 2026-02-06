@@ -15,7 +15,7 @@ public class SimpleSecurityFlow {
             // 1️⃣ Check URL rules
             if (url.endsWith("/public")) {
                 // public URL → allow access
-                System.out.println("URL is public → access granted to controller");
+                System.out.println("URL is public → access granted to controllerrrr");
                 openInBrowser(url);
 
             } else {
