@@ -17,7 +17,7 @@ public class HelloController {
     // Private endpoint (requires authentication)
     @GetMapping("/hello")
     public String privateEndpoint() {
-        return "Hello secure Worlddddddddd from MAIN LOCAL!";
+        return "Hello secure Worlddddddddd from MAIN LOCAL! check merge conflict";
     }
     
     // Private endpoint (requires authentication)
